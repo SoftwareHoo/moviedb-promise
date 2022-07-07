@@ -75,7 +75,7 @@ export declare class MovieDb {
     movieKeywords(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.MovieKeywordResponse>;
     movieReleaseDates(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.MovieReleaseDatesResponse>;
     movieVideos(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.VideosResponse>;
-    movieWatchProviders(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.WatchProviderResponse>;
+    movieWatchProviders(params?: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.WatchProviderResponse>;
     movieTranslations(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.MovieTranslationsResponse>;
     movieRecommendations(params: string | number | types.MovieRecommendationsRequest, axiosConfig?: AxiosRequestConfig): Promise<types.MovieRecommendationsResponse>;
     movieSimilar(params: string | number | types.IdRequestParams, axiosConfig?: AxiosRequestConfig): Promise<types.SimilarMovieResponse>;
