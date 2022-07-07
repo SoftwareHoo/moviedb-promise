@@ -1,7 +1,7 @@
 {
   "name": "moviedb-promise",
   "description": "A library for interacting with themoviedb.org API using Promises",
-  "version": "3.1.15",
+  "version": "3.1.25",
   "scripts": {
     "test": "npm run build && ./node_modules/.bin/mocha ./tests/*.js --reporter spec",
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grantholle/moviedb-promise.git"
+    "url": "https://github.com/SoftwareHoo/moviedb-promise.git"
   },
   "license": "MIT",
   "keywords": [
@@ -20,9 +20,9 @@
     "promise"
   ],
   "bugs": {
-    "url": "https://github.com/grantholle/moviedb-promise/issues"
+    "url": "https://github.com/SoftwareHoo/moviedb-promise/issues"
   },
-  "homepage": "https://github.com/grantholle/moviedb-promise#readme",
+  "homepage": "https://github.com/SoftwareHoo/moviedb-promise#readme",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -30,6 +30,7 @@
   "author": "Grant Holle <https://github.com/grantholle>",
   "contributors": [
     "Irwing Reza <irwing85@gmail.com> (http://irwingreza.com/)",
+    "Matthew Morelli <mjmorelli0509@gmail.com> (https://mattmorelli.net/)"
     {
       "name": "Chad Michael",
       "email": "chad@medlor.com",
