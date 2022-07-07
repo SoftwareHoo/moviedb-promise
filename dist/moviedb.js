@@ -237,7 +237,7 @@ class MovieDb {
         return this.makeRequest(types_1.HttpMethod.Get, 'movie/:id/videos', params, axiosConfig);
     }
     movieWatchProviders(params, axiosConfig) {
-        return this.makeRequest(types_1.HttpMethod.Get, 'movie/:id/watch/providers', params, axiosConfig);
+        return this.makeRequest(types_1.HttpMethod.Get, 'watch/providers/movie', params, axiosConfig);
     }
     movieTranslations(params, axiosConfig) {
         return this.makeRequest(types_1.HttpMethod.Get, 'movie/:id/translations', params, axiosConfig);
